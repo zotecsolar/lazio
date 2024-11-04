@@ -119,6 +119,16 @@ p {
   position: relative;
 }
 
+.row {
+  justify-content: center;
+  text-align: center;
+}
+
+.col-lg-4, .col-md-6 {
+  flex: 0 0 auto;
+  width: auto;
+}
+
 .section {
   padding-top: 100px;
   padding-bottom: 100px;
