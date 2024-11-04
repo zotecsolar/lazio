@@ -706,7 +706,7 @@ p {
   height: 590px;
 }
 .small-image {
-  width: 300px;
+  width: 150px;
   height: auto;
 }
 
@@ -722,7 +722,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 300px;
+    width: 150px;
     height: auto;
   }
 }
@@ -735,7 +735,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 100px;
+    width: 60px;
     height: auto;
   }
 }
@@ -748,7 +748,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 100px;
+    width: 60px;
     height: auto;
   }
 }
@@ -766,7 +766,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 100px;
+    width: 60px;
     height: auto;
   }
 }
@@ -779,7 +779,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 100px;
+    width: 60px;
     height: auto;
   }
 }
@@ -792,7 +792,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 100px;
+    width: 60px;
     height: auto;
   }
 }
