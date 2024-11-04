@@ -445,6 +445,40 @@
      max-height: 200px;
      overflow-y: auto;
    }
+   .nav-sticky.navbar-custom {
+    margin-top: 0px;
+    padding: 12px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+    color: #29292d !important;
+  }
+  .nav-sticky.navbar-custom .navbar-toggler {
+    color: #535353;
+  }
+  .nav-sticky.navbar-custom .navbar-nav {
+    margin-top: 0px;
+  }
+  .nav-sticky.navbar-custom .navbar-nav li a {
+    color: #2f3545 !important;
+  }
+  .nav-sticky.navbar-custom .navbar-nav li a:hover, .nav-sticky.navbar-custom .navbar-nav li a:active {
+    color: #d1bd23 !important;
+  }
+  .nav-sticky.navbar-custom .navbar-nav li.active a {
+    color: #f6c500 !important;
+  }
+  .nav-sticky.navbar-custom.sticky-light {
+    background-color: #ffffff;
+  }
+  .nav-sticky .navbar-brand {
+    color: #29292d !important;
+  }
+  .nav-sticky .navbar-brand .l-dark {
+    display: inline-block;
+  }
+  .nav-sticky .navbar-brand .l-light {
+    display: none;
+  }
  }
  @media (min-width: 200px) and (max-width: 767px) {
    .navbar-custom {
@@ -471,6 +505,40 @@
    .main-content {
      padding-top: 80px; /* Adjust this value to match the height of the fixed navbar */
    }
+   .nav-sticky.navbar-custom {
+    margin-top: 0px;
+    padding: 12px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+    color: #29292d !important;
+  }
+  .nav-sticky.navbar-custom .navbar-toggler {
+    color: #535353;
+  }
+  .nav-sticky.navbar-custom .navbar-nav {
+    margin-top: 0px;
+  }
+  .nav-sticky.navbar-custom .navbar-nav li a {
+    color: #2f3545 !important;
+  }
+  .nav-sticky.navbar-custom .navbar-nav li a:hover, .nav-sticky.navbar-custom .navbar-nav li a:active {
+    color: #d1bd23 !important;
+  }
+  .nav-sticky.navbar-custom .navbar-nav li.active a {
+    color: #f6c500 !important;
+  }
+  .nav-sticky.navbar-custom.sticky-light {
+    background-color: #ffffff;
+  }
+  .nav-sticky .navbar-brand {
+    color: #29292d !important;
+  }
+  .nav-sticky .navbar-brand .l-dark {
+    display: inline-block;
+  }
+  .nav-sticky .navbar-brand .l-light {
+    display: none;
+  }
  }
  .home-center {
    display: table;
