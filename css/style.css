@@ -446,10 +446,15 @@ p {
     overflow-y: auto;
   }
 }
-@media (min-width: 200px) and (max-width: 768px) {
+@media (min-width: 200px) and (max-width: 767px) {
   .navbar-custom {
     background-color: #111d38;
     padding: 10px 0px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
   }
   .navbar-brand .l-dark {
     display: inline-block;
@@ -462,6 +467,9 @@ p {
   }
   .login-button {
     margin-left: 5px !important;
+  }
+  .main-content {
+    padding-top: 80px; /* Adjust this value to match the height of the fixed navbar */
   }
 }
 .home-center {
