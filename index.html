@@ -38,6 +38,24 @@
     <!-- Custom Css -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1005146404701889');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1005146404701889&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
 </head>
 
 <body>
@@ -45,6 +63,18 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTNNNKQN"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <!--REONIC GTag Manager (script)-->
+    <script> 
+        window.addEventListener("message", (event) => { 
+            if (event.data.type === "reonic-lead-submitted") { 
+                console.log("Received conversion event") 
+                console.log("data", event.data) 
+            } 
+        }); 
+    </script> 
+    <!--End REONIC GTag Manager (script)-->
+
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -67,11 +97,11 @@
     <!-- Loader -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-sticky navbar-custom navbar-light sticky">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <!-- Applock -->
-                <img src="images/logo.png" class="l-dark" height="23" alt="">
+                <img src="images/logo-light.png" class="l-dark" height="23" alt="">
                 <img src="images/logo-light.png" class="l-light" height="23" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,29 +110,29 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="https://www.zotecsolar.com/">Home</a>
+                        <a class="nav-link" href="https://www.zotecsolar.com/" style="color: #ffffff !important;">Home</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/blog/">Blog</a>
+                        <a class="nav-link" href="https://www.zotecsolar.com/blog/" style="color: #ffffff !important;">Blog</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/chi-siamo/">Chi Siamo</a>
+                        <a class="nav-link" href="https://www.zotecsolar.com/chi-siamo/" style="color: #ffffff !important;">Chi Siamo</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="#review">Dicono di Noi</a>
+                        <a class="nav-link" href="#review" style="color: #ffffff !important;">Dicono di Noi</a>
                     </li><!--end nav item-->
                     <!--end nav item<li class="nav-item">
                         <a class="nav-link" href="#price">empty</a>
                     </li>-->
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/chi-siamo/">Team</a>
+                        <a class="nav-link" href="https://www.zotecsolar.com/chi-siamo/" style="color: #ffffff !important;">Team</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/contatti/">Contatti</a>
+                        <a class="nav-link" href="https://www.zotecsolar.com/contatti/" style="color: #ffffff !important;">Contatti</a>
                     </li><!--end nav item-->
                 </ul>
                 <div>
-                    <a href="#download" class="login-button mouse-down ms-3">Richiedi un Preventivo Gratuito!</a>
+                    <a href="#download" class="login-button mouse-down ms-3">FAI IL TUO PREVENTIVO!</a>
                 </div><!--end login button-->
             </div>
         </div>
@@ -122,8 +152,8 @@
                                 <h1 class="heading text-white mb-3">Fotovoltaico nel Lazio</h1>
                                 <p class="para-desc text-white-50" style="color: #ffffff !important;">Zotec Solar ha la soluzione per te: impianto fotovoltaico chiavi in mano e in sole ventiquattro ore potrai liberarti delle preoccupazioni legate al costo dell’energia.</p>
                                 <div class="mt-4 pt-2">
-                                    <a href="#download" class="btn btn-custom mb-2 me-2">Richiedi Preventivo!</a>
-                                    <a href="https://www.zotecsolar.com/contatti/" class="btn btn-outline-white mb-2">Contattaci</a>
+                                    <a href="#download" class="btn btn-custom mb-2 me-2">OTTIENI SUBITO IL TUO PREVENTIVO!</a>
+                                    <a href="https://www.zotecsolar.com/contatti/" class="btn btn-outline-white mb-2">CONTATTACI</a>
                                 </div>
                             </div>
                         </div><!--end col-->
@@ -146,6 +176,18 @@
     </section><!--end section-->
     <!-- HOME END-->
 
+    <!--ADDITIONAL REONIC-->
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <ul class="list-unstyled mb-0 app-download text-center">
+                <li> <img src="images/logo.png" alt="Logo Zotec Solar" class="small-image"> </li>                       
+                <div data-reonic-type="element" data-product="energyhouse" data-client-id="d96b0409-fce0-49fe-ba29-b3e2b44e9505"></div>
+                <!--<li class="list-inline-item"><a href="javascript:void(0)"><img src="images/apple.png" class="img-fluid mt-2" alt=""></a></li>
+                <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/google.png" class="img-fluid mt-2" alt=""></a></li>-->
+            </ul>
+        </div>
+    </div>
+    <!--END ADDITIONAL REONIC-->
     <!-- About Start -->
     <section class="section">
         <div class="container">
@@ -162,7 +204,7 @@
                             che hanno scelto di installare impianti fotovoltaici. Questo perché le peculiarità del
                             territorio e la propria posizione geografica permettono di ottimizzare la produzione
                             energetica e massimizzare l’investimento.</p>
-                        <a href="#download" class="btn btn-custom mt-2">Energia solare nel Lazio? Chiedi un preventivo!</a>
+                        <a href="#download" class="btn btn-custom mt-2">ENERGIA SOLARE NEL LAZIO? GUARDA LE OPPORTUNITÀ</a>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -186,7 +228,7 @@
                             che, infatti, Roma si sia confermata la prima provincia italiana per numero di impianti   
                             fotovoltaici in esercizio, con il 3,9% del totale nazionale, e che Roma e Viterbo siano le
                             due principali province per produzione di energia solare di tutto il centro Italia.</p>
-                        <a href="#download" class="btn btn-custom mt-2">Sei un’impresa? Verifica se hai i requisiti e chiedi un preventivo!</a>
+                        <a href="#download" class="btn btn-custom mt-2">SCOPRI I VANTAGGI DI ZOTEC SOLAR E PERSONALIZZA IL TUO PREVENTIVO</a>
                     </div>
                 </div><!--end col-->
 
@@ -217,7 +259,7 @@
                             <b>-Viterbo</b>: 1605 (kWh/m2);<br>
                             <b>-Frosinone</b>: 1600 (kWh/m2);<br>
                             <b>-Rieti</b>: 1561,6 (kWh/m2);</p>
-                        <a href="#download" class="btn btn-custom mt-2">Dai un’occhiata alle opportunità di Zotec Solar</a>
+                        <a href="#download" class="btn btn-custom mt-2">DAI UN’OCCHIATA ALLE OPPORTUNITÀ DI ZOTEC SOLAR</a>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -233,7 +275,7 @@
                             al percorso per rendere l’economia più sostenibile e aiutare le imprese laziali ad 
                             essere più indipendenti rispetto alle perturbazioni geopolitiche che influenzano i costi
                             dell’energia.</p>
-                        <a href="#download" class="btn btn-custom mt-2">Scopri i vantaggi di Zotec Solar e personalizza la tua offerta</a>
+                        <a href="#download" class="btn btn-custom mt-2">SEI UN’IMPRESA? VERIFICA SE HAI I REQUISITI E CHIEDI UN PREVENITVO</a>
                     </div>
                 </div><!--end col-->
 
@@ -268,7 +310,7 @@
                             ritorno dell’investimento. La cura e l’attenzione di Zotec Solar per la propria clientela
                             non termina dopo aver installato l’impianto fotovoltaico, ma prosegue grazie ad attività
                             di collaudo e monitoraggio annuali.</p>
-                        <a href="#download" class="btn btn-custom mt-2">Scopri i vantaggi di Zotec Solar e personalizza la tua offerta</a>
+                        <a href="#download" class="btn btn-custom mt-2">L’ENERGIA CHE TI RENDE INDIPENDENTE, SCEGLI IL SOLE</a>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -291,7 +333,7 @@
                             impianti di ultima generazione, garantiti e affidabili, ma altresì permette di avere a
                             disposizione un magazzino e uno stoccaggio di materiali altamente e costantemente
                             fornito dei principali componenti del fotovoltaico.</p>
-                        <a href="#download" class="btn btn-custom mt-2">Scegli la modalità di pagamento più conveniente</a>
+                        <a href="#download" class="btn btn-custom mt-2">SCEGLI LA MODALITÀ DI PAGAMENTO PIÙ CONVENIENTE</a>
                     </div>
                 </div><!--end col-->
                 <div class="col-md-5 order-1 order-md-2">
@@ -476,14 +518,7 @@
                     <div id="twitter-testi" class="owl-carousel testi-review">
                         <div class="testimonial text-center ms-3 me-3">
                             <div class="content-review">
-                                <p class="review font-italic text-white-50 mt-3" style="color: #ffffff !important;">" Dopo aver chiesto informazioni sono venuti a fare un sopralluogo mi hanno fatto un preventivo di spesa e in poco tempo dall'approvazione del preventivo sono venuti a fare l'installazione. "</p>
-                                <h5 class="name mb-1 mt-3 text-light">Cliente</h5>
-                                <img href= "https://it.trustpilot.com/review/zotecsolar.com" src="images/trust.png" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
-                            </div>
-                        </div><!--end content-->
-                        <div class="testimonial text-center ms-3 me-3">
-                            <div class="content-review">
-                                <p class="review font-italic text-white-50 mt-3" style="color: #ffffff !important;">" Società seria e puntuale, a partire dal rappresentante, coadiuvata da personale tecnico veramente professionale. Valori produttivi dell'impianto corrispondono a quanto stabilito. "</p>
+                                <p class="review font-italic text-white-50 mt-3" style="color: #ffffff !important;">" Società seria e puntuale, a partire dal rappresentante, coadiuvata da personale tecnico veramente professionale. Valori produttivi dell'impianto corrispondono.. "</p>
                                 <h5 class="name mb-1 mt-3 text-light">Cliente</h5>
                                 <img href= "https://it.trustpilot.com/review/zotecsolar.com" src="images/trust.png" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
                             </div>
