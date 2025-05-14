@@ -61,17 +61,6 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!--REONIC GTag Manager (script)-->
-    <script> 
-        window.addEventListener("message", (event) => { 
-            if (event.data.type === "reonic-lead-submitted") { 
-                console.log("Received conversion event") 
-                console.log("data", event.data) 
-            } 
-        }); 
-    </script> 
-    <!--End REONIC GTag Manager (script)-->
-
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -104,89 +93,18 @@
                 <span class="mdi mdi-menu"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://www.zotecsolar.com/" target="_blank" style="color: #ffffff !important;">Home</a>
-                    </li><!--end nav item-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/blog/" target="_blank" style="color: #ffffff !important;">Blog</a>
-                    </li><!--end nav item-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/chi-siamo/" target="_blank" style="color: #ffffff !important;">Chi Siamo</a>
-                    </li><!--end nav item-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#review" target="_blank" style="color: #ffffff !important;">Dicono di Noi</a>
-                    </li><!--end nav item-->
-                    <!--end nav item<li class="nav-item">
-                        <a class="nav-link" href="#price">empty</a>
-                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/chi-siamo/" target="_blank" style="color: #ffffff !important;">Team</a>
-                    </li><!--end nav item-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.zotecsolar.com/contatti/" target="_blank" style="color: #ffffff !important;">Contatti</a>
-                    </li><!--end nav item-->
-                </ul>
-                <div>
-                    <a href="#preventivo-online" class="login-button mouse-down ms-3">FAI IL TUO PREVENTIVO!</a>
-                </div><!--end login button-->
+
+                <div style="margin-left:auto"> 
+                    <a href="tel:+393895834028" class="login-button mouse-down ms-3">CHIAMA ORA!</a>
+                </div>
+
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
-    <!-- HOME START-->
-    <section class="bg-home" id="home">
-        <div class="bg-overlay"></div>
-        <div class="home-center">
-            <div class="home-desc-center">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-7 col-md-6">
-			    <div class="title-heading" style="margin-top: -50px;"> <!-- Added negative margin to move up -->
-    				<h1 class="heading text-white mb-3">Fotovoltaico nel Lazio</h1>
-    				<div class="mt-4 pt-2" style="margin-top: 0 !important;"> <!-- Reduced top margin -->
-        				<a href="https://www.zotecsolar.com/contatti/" class="btn btn-outline-white mb-2">CONTATTACI</a>
-    				</div>
-                            </div>
-                        </div><!--end col-->
-			<p style="color: #ffffff;">Clicca su <b>Iniziare Ora!</b> <br>e genera il tuo preventivo <span style="color: #fcf001; font-size: 2.2em; font-weight: bold;">↓</span></p>
-			<div id="preventivo-online" data-reonic-type="element" data-product="energyhouse" data-client-id="d96b0409-fce0-49fe-ba29-b3e2b44e9505"></div>
-			<!--end col
-                        <div class="col-lg-5 col-md-6 mt-4 pt-2">
-                            <div class="home-img text-md-end">
-                                <img src="images/home/home.png" loading="lazy" class="img-fluid mover-img" alt="">
-                            </div>
-                        </div>-->
-                    </div><!--end row-->
-                </div><!--end container-->
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="home-shape px-0">
-                            <img src="images/shp01.png" alt="" loading="lazy" class="img-fluid mx-auto d-block">
-                        </div>
-                    </div><!--end row-->
-                </div><!--end container fluid-->
-            </div><!--end home desc center-->
-        </div><!--end home center-->
-    </section><!--end section-->
-    <!-- HOME END-->
-
-    <!--
-    <div class="row justify-content-center" id="download">
-        <div class="col-md-10">
-            <ul class="list-unstyled mb-0 app-download text-center">
-                <li> <img src="images/logo.png" alt="Logo Zotec Solar" class="small-image"> </li>                       
-                <div data-reonic-type="element" data-product="energyhouse" data-client-id="d96b0409-fce0-49fe-ba29-b3e2b44e9505"></div>
-                <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/apple.png" class="img-fluid mt-2" alt=""></a></li>
-                <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/google.png" class="img-fluid mt-2" alt=""></a></li>
-            </ul>
-        </div>
-    </div>
-    -->
     
     <!-- About Start -->
-    <section class="section">
+    <section class="section" style="padding-top: 150px;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5">
@@ -208,7 +126,6 @@
                             che hanno scelto di installare impianti fotovoltaici. Questo perché le peculiarità del
                             territorio e la propria posizione geografica permettono di ottimizzare la produzione
                             energetica e massimizzare l’investimento.</p>
-                        <a href="#home" class="btn btn-custom mt-2">ENERGIA SOLARE NEL LAZIO? GUARDA LE OPPORTUNITÀ</a>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -218,21 +135,11 @@
                     <div class="about-app me-lg-4">
                         <i class="mdi mdi-solar-power text-custom h2"></i>
                         <h4 class="title text-uppercase mt-2 mb-3">Energia solare nel Lazio</h4>
-                        <p class="text-muted">L’ Energia solare nel Lazio è una realtà consolidata. Infatti, secondo gli ultimi dati
-                            condivisi dal <a href="https://www.gse.it/" target="_blank">Gestore Servizi Energetici (GSE)</a>, il Lazio risulta essere una delle regioni
-                            più green d’Italia.
-                            Secondo i dati pubblicati dal GSE, il Lazio ha visto un aumento di impianti fotovoltaici
-                            installati pari al 31%. Nel 2023 gli impianti fotovoltaici nel Lazio sono 106.408, ovvero
-                            quasi il 7% della distribuzione degli impianti fotovoltaici su installati su tutto il
-                            territorio italiano con una produzione superiore al 7% della media nazionale.
-                            I fattori che hanno indotto i residenti laziali a scegliere l’energia solare sono molteplici.
-                            Tra tutti, oltre alle opportunità derivanti dagli <a href="https://www.zotecsolar.com/2024/07/18/gli-incentivi-statali-per-lenergia-solare/" target="_blank">incentivi e agevolazioni statali</a> previsti
-                            fino al dicembre 2024, è importante evidenziare che il posizionamento e la forma della
-                            regione Lazio consentono di ottimizzare la produzione di energia solare. Non è un caso
-                            che, infatti, Roma si sia confermata la prima provincia italiana per numero di impianti   
-                            fotovoltaici in esercizio, con il 3,9% del totale nazionale, e che Roma e Viterbo siano le
-                            due principali province per produzione di energia solare di tutto il centro Italia.</p>
-                        <a href="#home" class="btn btn-custom mt-2">SCOPRI I VANTAGGI DI ZOTEC SOLAR E PERSONALIZZA IL TUO PREVENTIVO</a>
+                        <p class="text-muted">
+
+L’ Energia solare nel Lazio è una realtà consolidata. Infatti, secondo gli ultimi dati condivisi dal Gestore Servizi Energetici (GSE), il Lazio risulta essere una delle regioni più green d’Italia. Secondo il GSE, il Lazio ha visto un aumento di impianti fotovoltaici installati pari al 31%. Nel 2023 gli impianti fotovoltaici nel Lazio sono 106.408, ovvero quasi il 7% della distribuzione degli impianti fotovoltaici su installati su tutto il territorio italiano con una produzione superiore al 7% della media nazionale. I fattori che hanno indotto i residenti laziali a scegliere l’energia solare sono molteplici. Tra tutti, oltre alle opportunità derivanti dagli incentivi e agevolazioni previsti fino al dicembre 2025, è importante evidenziare che il posizionamento e la forma della regione consentono di ottimizzare la produzione di energia solare. Non è un caso che, infatti, Roma si sia confermata la prima provincia italiana per numero di impianti fotovoltaici in esercizio, con il 3,9% del totale nazionale, e che Roma e Viterbo siano le due principali province per produzione di energia solare di tutto il centro Italia.
+
+                        </p>
                     </div>
                 </div><!--end col-->
 
@@ -275,37 +182,10 @@
                             <b>-Viterbo</b>: 1605 (kWh/m2);<br>
                             <b>-Frosinone</b>: 1600 (kWh/m2);<br>
                             <b>-Rieti</b>: 1561,6 (kWh/m2);</p>
-                        <a href="#home" class="btn btn-custom mt-2">DAI UN’OCCHIATA ALLE OPPORTUNITÀ DI ZOTEC SOLAR</a>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
 
-            <div class="row mt-5 align-items-center">
-                <div class="col-md-7 mt-4 mt-sm-0 pt-2 pt-sm-0 order-2 order-md-1">
-                    <div class="about-app me-lg-4">
-                        <i class="mdi mdi-solar-power text-custom h2"></i>
-                        <h4 class="title text-uppercase mt-2 mb-3">Energia per le imprese del Lazio</h4>
-                        <p class="text-muted">Un importante incentivo alla realizzazione di investimenti per il risparmio energetico 
-                            e per la produzione da fonti rinnovabili è stato promosso dalla Regione Lazio che, con
-                            il Bando <a href="https://www.lazioinnova.it/bandi/efficienza-energetica-e-rinnovabili-per-le-imprese/" target="_blank">“Efficienza energetica e rinnovabili per le imprese”</a>, ha deciso di contribuire 
-                            al percorso per rendere l’economia più sostenibile e aiutare le imprese laziali ad 
-                            essere più indipendenti rispetto alle perturbazioni geopolitiche che influenzano i costi
-                            dell’energia.</p>
-                        <a href="#home" class="btn btn-custom mt-2">SEI UN’IMPRESA? VERIFICA SE HAI I REQUISITI E CHIEDI UN PREVENITVO</a>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-md-5 order-1 order-md-2">
-
-                    <picture loading="lazy" class="img-fluid webp-img" data-aos="fade-left">
-                        <source srcset="images/ab03.webp" media="(max-width: 767px)" type="image/webp">
-                        <source srcset="images/ab03-desktop.webp" media="(min-width: 768px)" type="image/webp">
-                        <source srcset="images/ab03.jpg" type="image/jpeg">
-                        <img src="images/ab03.jpg" alt="Locandina">
-                    </picture>
-
-                </div><!--end col-->
-            </div><!--end row-->
         </div><!--end container-->
     </section><!--end section-->
     <!-- About End -->
@@ -329,18 +209,8 @@
                     <div class="about-app ms-lg-4">
                         <i class="mdi mdi-solar-power text-custom h2"></i>
                         <h4 class="title text-uppercase mt-2 mb-3">Perché scegliere Zotec Solar</h4>
-                        <p class="text-muted"><a href="https://www.zotecsolar.com/" target="_blank">Zotec Solar</a> è una delle principali società attive nel mondo del fotovoltaico nel Lazio.
-                            Grazie alla propria affidabilità ed efficienza, è divenuta un punto di riferimento anche
-                            per il Piemonte, Toscana, Umbria, Abruzzo, Molise, Calabria e Sardegna.
-                            La Zotec Solar, nel corso della sua attività, si è distinta per politiche commerciali capaci
-                            di coniugare la qualità dei propri impianti alla convenienza dei propri preventivi,
-                            assicurando impianti fotovoltaici di alta gamma e un costumer care a 360°. Zotec Solar
-                            segue la propria clientela in ogni passo assicurando alla propria clientela una costante
-                            assistenza: dagli studi preliminari, fino alle analisi di rendimento degli impianti e al
-                            ritorno dell’investimento. La cura e l’attenzione di Zotec Solar per la propria clientela
-                            non termina dopo aver installato l’impianto fotovoltaico, ma prosegue grazie ad attività
-                            di collaudo e monitoraggio annuali.</p>
-                        <a href="#home" class="btn btn-custom mt-2">L’ENERGIA CHE TI RENDE INDIPENDENTE, SCEGLI IL SOLE</a>
+                        <p class="text-muted">
+                        Scegliere l’energia solare oggi significa assicurarsi un abbattimento dei costi energetici, nonché un investimento per il proprio portafogli e per l’ambiente. Zotec Solar non significa solamente avere la possibilità di installare impianti di ultima generazione ma altresì permette di avere a disposizione un magazzino e uno stoccaggio di materiali altamente e costantemente fornito dei principali componenti del fotovoltaico.</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -363,7 +233,10 @@
                             impianti di ultima generazione, garantiti e affidabili, ma altresì permette di avere a
                             disposizione un magazzino e uno stoccaggio di materiali altamente e costantemente
                             fornito dei principali componenti del fotovoltaico.</p>
-                        <a href="#home" class="btn btn-custom mt-2">SCEGLI LA MODALITÀ DI PAGAMENTO PIÙ CONVENIENTE</a>
+
+                            <p class="highlighted">Se sei interessato ad installare un impianto fotovoltaico chiama il numero <strong>+39 389 583 4028!</strong>
+                            </p>
+
                     </div>
                 </div><!--end col-->
                 <div class="col-md-5 order-1 order-md-2">
@@ -380,146 +253,6 @@
         </div><!--end container-->
     </section><!--end section-->
     <!-- About End -->
- 
-    <section class="section">
-        <div class="container">
-            <div class="row justify-content-center mt-5 pt-2">
-                <div class="col-9">
-
-                    <picture href = "#download" loading="lazy" class="img-fluid mover-img webp-img">
-                        <source srcset="images/bann_cta.webp" type="image/webp">
-                        <source srcset="images/bann_cta.jpg" type="image/jpeg">
-                        <img src="images/bann_cta.jpg" alt="Call to action">
-                    </picture>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Available Feature Start -->
-
-
-    <!-- Feature Start -->
-    <section class="section bg-light" id="services">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="section-title text-center">
-                        <i class="mdi mdi-attachment text-custom h2"></i>
-                        <h4 class="title text-uppercase mt-3 mb-5">
-                            Punti Chiave del Bando Energetico del Lazio "Efficienza Energetica e Rinnovabili per le Imprese"
-                        </h4>
-                        <p class="text-muted mx-auto para-desc mb-0">
-                            Un importante incentivo alla realizzazione di investimenti per il risparmio energetico e per la
-                            produzione da fonti rinnovabili è stato promosso dalla Regione Lazio che, con il Bando “Efficienza
-                            energetica e rinnovabili per le imprese”, ha deciso di contribuire al percorso per rendere l’economia
-                            più sostenibile e aiutare le imprese laziali ad essere più indipendenti rispetto alle perturbazioni
-                            geopolitiche che influenzano i costi dell’energia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="row justify-content-center text-center services align-items-center">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="core-service">
-                        <div class="core-service-content mt-4 pt-2 text-center">
-                            <div class="icon mt-4">
-                                <i class="mdi mdi-account-multiple"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title mb-2">Budget: 40 milioni di Euro</h4>
-                            </div>
-                        </div>
-    
-                        <div class="core-service-content mt-4 pt-2 text-center">
-                            <div class="icon mt-4">
-                                <i class="mdi mdi-image-multiple"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title mb-2">Beneficiari:</h4>
-                                <p class="text-muted mb-0">
-                                    - Sede operativa nel Lazio;<br>
-                                    - Nel 2023 hanno registrato consumi di energia primaria non
-                                    rinnovabile pari o superiori a 60 MWh/anno;<br>
-                                    - Ogni impresa può presentare un solo progetto, in forma singola;<br>
-                                    - Le imprese devono inoltre essere in contabilità ordinaria e possedere i
-                                    requisiti previsti per contrarre con la Pubblica Amministrazione.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="core-service-content mt-4 pt-2 text-center">
-                            <div class="icon mt-4">
-                                <i class="mdi mdi-image-multiple"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title mb-2">Progetti finanziabili devono includere investimenti per migliorare
-                                    l'efficienza energetica e possono comprendere:</h4>
-                                <p class="text-muted mb-0">-Sistemi di accumulo energetico;<br>
-                                    - Spese relative a opere murarie e progettazione (fino al 10%
-                                    dell'investimento);<br>
-                                    - Certificazioni come la ISO 50001 e diagnosi energetiche;<br>
-                                    - Il contributo relativo agli investimenti per la produzione di energia da
-                                    fonti rinnovabili, vale a dire da fonte eolica, solare, idraulica, geotermica o marina, non può
-                                    superare il 50% del contributo totale riconoscibile sull’intero progetto;<br>
-                                    - Ogni progetto nel suo complesso deve determinare una riduzione di almeno
-                                    il 30% delle emissioni dirette e indirette di gas a effetto serra rispetto alle emissioni ex
-                                    ante.
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="core-service-content mt-4 pt-2 text-center">
-                            <div class="icon mt-4">
-                                <i class="mdi mdi-apps"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title mb-2">Scadenza:</h4>
-                                <p class="text-muted mb-0">Le domande possono essere presentate dal 16 settembre 2024 al 16 luglio
-                                    2025, salvo esaurimento fondi</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="core-service">
-                        <div class="core-service-content mt-4 pt-2 text-center">
-                            <div class="icon mt-4">
-                                <i class="mdi mdi-cellphone-link"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title mb-2">I vantaggi di affidarsi a Zotec Solar</h4>
-                                <p class="text-muted mb-0">- Sopralluogo gratuito;<br>
-                                    - Progettazione impianto fotovoltaico su misura in base alle esigenze e necessità
-                                    di ciascun cliente;<br>
-                                    - Stima rendimento impianto fotovoltaico;<br>
-                                    - Iter di connessione compreso nel prezzo;<br>
-                                    - Assistenza garantita per 10 anni;<br>
-                                    - Garanzia sui prodotti di 25 anni;<br>
-                                    - Prezzi altamente competitivi rispetto alla media regionale;<br>
-                                    - Ritorno economico investimento in 4/5 anni
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="core-service-content mt-4 pt-2 text-center">
-                            <div class="icon mt-4">
-                                <i class="mdi mdi-format-list-bulleted"></i>
-                            </div>
-                            <div class="content">
-                                <h4 class="title mb-2">Modalità di Acquisto</h4>
-                                <p class="text-muted mb-0">- Acquisto diretto;<br>
-                                    - Possibilità di finanziamenti con i nostri provider finanziari
-                                    <b>anche</b> a tasso zero.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Testimonail Start -->
     <section class="section" id="review" style="background:url('images/cta.jpg') fixed center center;">
@@ -553,74 +286,6 @@
     </section><!--end section-->
     <!-- Testimonail End -->
 
-    <!-- Available Feature Start -->
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title text-center">
-                        <i class="mdi mdi-settings-outline text-custom h2"></i>
-                        <h4 class="title text-uppercase mt-3 mb-5">Come personalizzare il preventivo</h4>
-                        <p class="text-muted mx-auto para-desc mb-0">In pochissimi click puoi personalizzare il preventivo completamente online!</p>
-                    </div>
-                </div><!--end col-->
-            </div><!--end row-->
-
-            <div class="row">
-                <div class="col-md-4 mt-4 pt-2">
-                    <div class="device-feature device-border text-center">
-                        <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="images/icon/pc-resized.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="content">
-                            <h4 class="title mb-3">Indirizzo</h4>
-                            <p class="text-muted">Inserisci il tuo indirizzo per localizzare dove installeremo l'impianto.</p>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-md-4 mt-4 pt-2">
-                    <div class="device-feature device-border text-center">
-                        <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="images/icon/ipad-resized.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="content">
-                            <h4 class="title mb-3">Consumi & Aggiunte</h4>
-                            <p class="text-muted">Compila le informazioni richieste come i consumi attuali e decidi fra diverse opzioni e aggiunte.</p>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-md-4 mt-4 pt-2">
-                    <div class="device-feature text-center">
-                        <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="images/icon/app-resized.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="content">
-                            <h4 class="title mb-3">Scegli & Invia</h4>
-                            <p class="text-muted">Scegli l'offerta che più ti interessa ed invia!</p>
-                        </div>
-                    </div>
-                </div><!--end col-->
-            </div><!--end row-->
-
-        </div>
-    </section>
-
-    <!-- Google Map Start -->
-    <section class="bg-dark">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 p-0">
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046381.5466378652!2d10.098137204295394!3d41.785602020175695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1324eee6353a6535%3A0x6f4a9064f1a38529!2sLazio!5e0!3m2!1sen!2sit!4v1730563662075!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div><!--end map-->
-                </div><!--end col-->
-            </div><!--end row-->
-        </div><!--end container-->
-    </section><!--end section-->
-    <!-- Google Map End -->
-
     <!-- Footer Start -->
     <footer class="footer bg-dark">
         <div class="container">
@@ -651,7 +316,6 @@
     </a>
     <!-- Back to top -->
     <!-- javascript -->
-    <script type="text/javascript" src="https://apps.reonic.de/elements/reonic-loader.js" defer="1"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js" defer="1"></script>
     <script src="js/jquery.easing.min.js" defer="1"></script>
